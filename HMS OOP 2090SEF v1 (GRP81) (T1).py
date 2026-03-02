@@ -1,4 +1,8 @@
-#By CHIAN Makeiyle P., DGW Mackie H. and LIU Keyang
+#By CHIAN Makeiyle P., DGW Mackie H. and LIU Keyang (Group 81)
+#Version 1 (March 2) | OOP-based application development | Task 1
+#OOP Project on Hotel Managment System
+#Created for COMP2090SEF 2026 Spring Term
+
 from abc import ABC, abstractmethod
 
 class Room(ABC):
@@ -68,4 +72,5 @@ class Guest:
         return False
     
     def __str__(self):
+
         return f"Guest {self._name} (ID: {self._guest_id})"
